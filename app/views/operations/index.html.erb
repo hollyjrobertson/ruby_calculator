@@ -1,0 +1,20 @@
+<h1>Ruby Calculator</h1>
+<p>Holly Robertson - WEBD 435</p>
+
+<%= form_for :operation, url: '/create' do |f| %>
+  <p>
+    <%= f.label :num1, "Enter First Number:" %><br>
+    <%= f.text_field :num1, :required => true, :pattern => '\d' %>
+  </p>
+  <p>
+    <%= f.label :num2, "Enter Second Number:" %><br>
+    <%= f.text_field :num2, :required => true, :pattern => '\d' %>
+  </p>
+  <p>
+    <%= f.label :operator, "Operator:" %><br>
+    <%= f.select :operator, ['+', '-', '*', '/'], :required => true %>
+  </p>
+  <p>
+    <%= f.submit "Calculate" %>
+  </p>
+<% end %>
