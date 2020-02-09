@@ -1,24 +1,7 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Technical Stack:
+• Written with Ruby on Rails
+• Developed within RubyMine IDE
+• Hosted on local environment (localhost:3000)
+• Code is available on GitHub
+• Name of application: ruby_calculator
+• Written by Holly Robertson for WEBD 435 course at Franklin University
